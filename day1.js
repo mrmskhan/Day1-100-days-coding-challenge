@@ -1,0 +1,9 @@
+// Day1-100days-c0ding-challenge
+// Question 2: Personal Message: Store a person’s name in a variable and print a message to them, like “Hello Asharib, would you like to learn some TypeScript today?”
+var personName = "Saleem";
+console.log("Hello ".concat(personName, ", would you like to learn some TypeScript today?"));
+// Question 3: Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
+var person = "Saleem";
+console.log(person.toLowerCase());
+console.log(person.toUpperCase());
+console.log(person.charAt(0).toUpperCase() + person.slice(1).toLowerCase());
